@@ -13,7 +13,7 @@
 - GitHub - hosts repository that can be deployed to GitHub Pages
 
 ## Summary
-This application allows the user to dynamically place new buttons on the browser. Once buttons have been dsiplayed user can click button to generate a list of 25 top rated gifs taken from GIPHYs API. 
+This application allows the user to dynamically place new buttons on the browser. Once buttons have been dsiplayed user can click button to generate a list of 25 top rated gifs, with a PG-13 rating, taken from GIPHYs API. 
 
 ## Code Snippet
 '''JQuery

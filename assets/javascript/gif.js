@@ -4,7 +4,8 @@ var oceantopics = ["Sharks", "Surf Spots", "Under The Sea", "Sea Creatures", "Aq
 // function re-renders HTML to show content
 function displayOceanInfo() {
     var oceanTerm = $(this).attr("data-name");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + oceanTerm + "&api_key=icfGwOjla120r9Qqx0fKp5KYkO5fZURI&q=ocean&limit=25&offset=0&rating=G&lang=en";
+    console.log(oceanTerm);
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + oceanTerm + "&api_key=icfGwOjla120r9Qqx0fKp5KYkO5fZURI&limit=25&offset=0&rating=G&lang=en";
 // Ajax call for specific ocean button clicked by user
     $.ajax({
         url: queryURL,
